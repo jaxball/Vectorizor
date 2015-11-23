@@ -16,6 +16,24 @@ A full-stack webdev project started at Make Hacks and finished at... well it's o
 		> temp
 	> test 
 		> temp
+	> assets
+		> js
+		> css
+	> vtrize.nmf
+	> vtrize.hpp
+	> vtrize.cpp
+	> vtrize_instance.hpp (hpp w/ implementation) 
+	> processor.hpp
+	> processor_houghline.cpp
+	> url_loader_handler.hpp
+	> url_loader_handler.cpp
+	> singleton_factory.hpp
+	> text_processor.cpp (where main is located)
+	> instance_factory.hpp
+	> photo.js
+	> Makefile
+	
+	
 
 **Frameworks & Libraries**
 
@@ -33,4 +51,11 @@ UI: Twitter Bootstrap 3
 
 #####PNaCl####
 Using the REST API
+
+###OpenCV###
+
+#####Hough Transform#####
+Hough Space vs. Cartesian Space
+
+A line can be detected by finding the number of intersections between curves.The more curves intersecting means that the line represented by that intersection have more points. In general, we can define a threshold of the minimum number of intersections needed to detect a line.
 
